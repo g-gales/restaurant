@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: #f1f1f1;
+  padding: 2rem;
+}
+
+/* Image styles */
+
+.img-wrapper {
+  height: auto;
+  width: 90%;
+  flex-basis: 100%;
+}
+
+.img-wrapper img {
+  display: block;
+  width: 100%;
+}
+
+.logo {
+  max-width: 440px;
+  max-height: 171.1px;
+  margin: 0 auto;
+}
+
+/* Link Styles */
+
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 2rem;
+  flex-flow: column wrap;
+  margin-top: 1.8rem;
+}
+
+.link-wrapper {
+  margin-top: 1rem;
+}
+
+.header-link {
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  box-shadow: inset 0 0 0 0 #070707;
+  color: #070707;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Adds the box-shadow over the whole link and changes the font color */
+.header-link:hover {
+  box-shadow: inset 200px 0 0 0 #070707;
+  color: #f1f1f1;
+}

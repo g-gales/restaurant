@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  background-color: #323232;
+  justify-content: space-between;
+  padding: 2rem 1.4rem;
+}
+
+.footer-copyright,
+.footer-terms {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+
+.footer-link,
+.footer-p {
+  color: #f1f1f1;
+  font-size: 1.4em;
+}

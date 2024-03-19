@@ -1,0 +1,50 @@
+/* Adjusts size of items */
+@media only screen and (min-width: 40.625rem) {
+  .food {
+    width: 40rem;
+  }
+}
+
+/* Positions items in more of a grid-like style */
+@media only screen and (min-width: 50rem) {
+  .food {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 52rem;
+  }
+
+  .food-item {
+    width: 24rem;
+  }
+  .menu {
+    padding-bottom: 4rem;
+  }
+}
+
+/* INcreases font sizes and spacing */
+@media only screen and (min-width: 62.5rem) {
+  .food {
+    width: 72rem;
+  }
+
+  .food-item {
+    width: 34rem;
+  }
+  .menu-category-subtitle {
+    font-size: 4rem;
+  }
+  .food-title-price {
+    font-size: 2.5rem;
+  }
+  .food-desc {
+    font-size: 2rem;
+  }
+
+  .menu-category {
+    gap: 2rem;
+  }
+
+  .menu {
+    padding-bottom: 5rem;
+  }
+}

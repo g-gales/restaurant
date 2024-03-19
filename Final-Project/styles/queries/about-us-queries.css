@@ -1,0 +1,31 @@
+/* Adjusts the height of the banner image and padding of text */
+@media only screen and (min-width: 30.125rem) {
+  .about-us-img {
+    height: 15rem;
+  }
+
+  .about-us {
+    padding: 1rem 2rem;
+  }
+}
+
+/* Adjusts banner height and font size of title only */
+@media only screen and (min-width: 50rem) {
+  .about-us-img {
+    height: 20rem;
+  }
+  .about-us-subtitle {
+    font-size: 3.8rem;
+  }
+}
+
+/* Adjusts banner height and sets width of text to a constant  */
+@media only screen and (min-width: 62.5rem) {
+  .about-us-img {
+    height: 30rem;
+  }
+  .about-us {
+    max-width: 100rem;
+    margin: auto;
+  }
+}

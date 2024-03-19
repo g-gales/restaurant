@@ -1,0 +1,33 @@
+/* Adjusts banner height */
+@media only screen and (min-width: 50rem) {
+  .contact-us-img {
+    height: 20rem;
+  }
+}
+
+/* Moves banner to the right with flexbox, becoming just an image instead */
+@media only screen and (min-width: 62.5rem) {
+  main {
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-right: 2rem;
+  }
+
+  .contact-form {
+    margin: 0;
+    width: 50%;
+  }
+  .contact-us-img {
+    height: 48rem;
+    width: 50%;
+    border-radius: 5px;
+  }
+}
+
+/* Sets the width of content to a constant */
+@media only screen and (min-width: 87.5rem) {
+  main {
+    width: 1380px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/about-us.css" />
+    <link rel="stylesheet" href="./styles/cta.css" />
+    <link rel="stylesheet" href="./styles/info.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/queries/footer-queries.css" />
+    <link rel="stylesheet" href="./styles/queries/info-queries.css" />
+    <link rel="stylesheet" href="./styles/queries/cta-queries.css" />
+    <link rel="stylesheet" href="./styles/queries/about-us-queries.css" />
+    <link rel="stylesheet" href="./styles/queries/header-queries.css" />
+    <title>Restaurant Food & Drinks</title>
+  </head>
+  <body>
+    <!-- Header - Same across all pages -->
+    <header class="header">
+      <div class="img-wrapper">
+        <img src="./images/logo.jpg" alt="Logo" class="logo" />
+      </div>
+      <nav class="primary header-nav">
+        <li class="link-wrapper">
+          <a href="./index.html" class="header-link link-home">Home</a>
+        </li>
+        <li class="link-wrapper">
+          <a href="./menu.html" class="header-link link-menu">Menu</a>
+        </li>
+        <li class="link-wrapper">
+          <a href="index.html#about-us" class="header-link link-about-us">About Us</a>
+        </li>
+        <li class="link-wrapper">
+          <a href="./contact-us.html" class="header-link link-contact">Contact Us</a>
+        </li>
+      </nav>
+    </header>
+    <main>
+      <!-- CTA -->
+      <!-- Button overtop of an image -->
+      <section class="cta">
+        <section class="cta-img"></section>
+        <a href="contact-us.html">
+          <button>Order Now</button>
+        </a>
+      </section>
+
+      <!-- Information -->
+      <section class="info">
+        <div class="info-wrapper">
+          <!-- Address -->
+          <section class="address">
+            <h2 class="info-subtitle">Address</h2>
+            <div class="address-content">
+              <p class="info-text">123 Restaurant St.</p>
+              <p class="info-text">London, Ontario</p>
+            </div>
+          </section>
+          <!-- Hours Open -->
+          <section class="hours">
+            <h2 class="info-subtitle">Hours</h2>
+            <div class="weekday">
+              <p class="info-text">Sunday - Thursday</p>
+              <p class="info-text">4:30 pm - 10:00 pm</p>
+            </div>
+            <div class="weekend">
+              <p class="info-text">Friday - Saturday</p>
+              <p class="info-text">4:30 pm - 11:00 pm</p>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section class="about-us-img"></section>
+      <article class="about-us" id="about-us">
+        <h2 class="about-us-subtitle">About Us</h2>
+        <div class="about-us-text-wrapper">
+          <p class="about-us-text">
+            Welcome to Restaurant, where we strive to serve the best food in town! Our
+            story began with a simple idea: to create a place where people can enjoy
+            delicious food in a relaxed and casual atmosphere. We believe that great food
+            should be accompanied by great service, and that's what we strive to offer to
+            every customer who walks through our doors.<br />
+          </p>
+          <p class="about-us-text">
+            At Restaurant, we pride ourselves on providing a warm and welcoming
+            atmosphere. Our team is passionate about food and dedicated to providing
+            exceptional customer service. We want our customers to feel at home when they
+            dine with us, and we go above and beyond to make that happen. Whether you're
+            stopping by for a quick lunch or a leisurely dinner, we promise to provide you
+            with a memorable dining experience.<br />
+          </p>
+          <p class="about-us-text">
+            Thank you for considering Restaurant for your dining needs. We look forward to
+            serving you soon!
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <!-- Footer - Same across all pages -->
+    <footer class="footer">
+      <div class="footer-copyright">
+        <p class="footer-p">Grayson Gales &copy; 2023</p>
+        <p class="footer-p">All Rights Reserved.</p>
+      </div>
+      <div class="footer-terms">
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <a href="#" class="footer-link">Terms of Use</a>
+      </div>
+    </footer>
+  </body>
+</html>

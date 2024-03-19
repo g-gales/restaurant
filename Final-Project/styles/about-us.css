@@ -1,0 +1,24 @@
+.about-us-img {
+  background-image: url(../images/about-us-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 11rem;
+}
+.about-us {
+  padding: 1rem;
+}
+
+.about-us-subtitle {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.about-us {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.about-us-text {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}

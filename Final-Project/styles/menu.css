@@ -1,0 +1,44 @@
+/* Nested flex boxes - 5 in total */
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 3rem;
+  padding: 3rem 0;
+}
+
+.menu-category {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.menu-category-subtitle {
+  font-size: 3rem;
+}
+
+.food {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 25rem;
+}
+
+.food-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.food-title-price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.food-desc {
+  font-size: 1.8rem;
+  text-transform: lowercase;
+  border-bottom: solid 2px #010101;
+}

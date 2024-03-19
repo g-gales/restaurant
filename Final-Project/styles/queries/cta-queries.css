@@ -1,0 +1,29 @@
+/* Adjusts banner height */
+@media only screen and (min-width: 30.125rem) {
+  .cta-img {
+    height: 15rem;
+  }
+}
+
+/* Adjust banner height and button size through font size */
+@media only screen and (min-width: 50rem) {
+  .cta-img {
+    height: 20rem;
+  }
+
+  button {
+    font-size: 2rem;
+  }
+}
+
+/* Adjust banner height and button size, repositions button offset to the left to see more of the banner image*/
+@media only screen and (min-width: 62.5rem) {
+  .cta-img {
+    height: 30rem;
+  }
+
+  button {
+    font-size: 2.4rem;
+    left: 25%;
+  }
+}

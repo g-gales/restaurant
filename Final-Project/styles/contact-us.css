@@ -1,0 +1,53 @@
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.contact-form {
+  padding: 2rem;
+  max-width: 90%;
+  margin: 0 5%;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+button {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #f1f1f1;
+  background-color: #f00;
+  border: 1px solid #010101;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-us-img {
+  background-image: url(../images/restaurant-dining.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 12rem;
+  width: 100%;
+}

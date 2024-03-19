@@ -1,0 +1,18 @@
+/* Positions content side by side instead of stack */
+@media only screen and (min-width: 43.75rem) {
+  .info-wrapper {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+  }
+}
+
+/* Adjusts font size */
+@media only screen and (min-width: 50rem) {
+  .info-subtitle {
+    font-size: 3.8rem;
+  }
+  .info-text {
+    font-size: 2.4rem;
+  }
+}

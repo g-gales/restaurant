@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/menu.css" />
+    <link rel="stylesheet" href="./styles/queries/menu-queries.css" />
+    <link rel="stylesheet" href="./styles/queries/footer-queries.css" />
+    <link rel="stylesheet" href="./styles/queries/header-queries.css" />
+    <title>Restaurant Food & Drinks</title>
+  </head>
+  <body>
+    <!-- Header - Same across all pages -->
+    <header class="header">
+      <div class="img-wrapper">
+        <img src="./images/logo.jpg" alt="Logo" class="logo" />
+      </div>
+      <nav class="primary header-nav">
+        <li class="link-wrapper">
+          <a href="./index.html" class="header-link link-home">Home</a>
+        </li>
+        <li class="link-wrapper">
+          <a href="./menu.html" class="header-link link-menu">Menu</a>
+        </li>
+        <li class="link-wrapper">
+          <a href="index.html#about-us" class="header-link link-about-us">About Us</a>
+        </li>
+        <li class="link-wrapper">
+          <a href="./contact-us.html" class="header-link link-contact">Contact Us</a>
+        </li>
+      </nav>
+    </header>
+
+    <!-- Menu -->
+    <!-- Many nested div elements for flexbox styling -->
+    <main class="menu">
+      <!-- Appetizers -->
+      <section class="menu-category appetizers">
+        <h2 class="menu-category-subtitle appetizers-subtitle">Appetizers</h2>
+        <div class="food">
+          <div class="food-item">
+            <div class="food-title-price">
+              <h3 class="food-title">Brusscetta</h3>
+              <h3 class="food-price">$7</h3>
+            </div>
+            <div class="food-desc">
+              <p>veggies on bread</p>
+            </div>
+          </div>
+          <div class="food-item">
+            <div class="food-title-price">
+              <h3 class="food-title">Garlic Bread</h3>
+              <h3 class="food-price">$5</h3>
+            </div>
+            <div class="food-desc">
+              <p>garlic on bread</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Entrees -->
+      <section class="menu-category entrees">
+        <h2 class="menu-category-subtitle entrees-subtitle">Entrees</h2>
+        <div class="food">
+          <div class="food-item">
+            <div class="food-title-price">
+              <h3 class="food-title">Pasta Carbonara</h3>
+              <h3 class="food-price">$14</h3>
+            </div>
+            <div class="food-desc">
+              <p>pasta with pepper and meat</p>
+            </div>
+          </div>
+          <div class="food-item">
+            <div class="food-title-price">
+              <h3 class="food-title">Pizza Margherita</h3>
+              <h3 class="food-price">$12</h3>
+            </div>
+            <div class="food-desc">
+              <p>pizza done the right way</p>
+            </div>
+          </div>
+          <div class="food-item">
+            <div class="food-title-price">
+              <h3 class="food-title">Grilled Salmon</h3>
+              <h3 class="food-price">$18</h3>
+            </div>
+            <div class="food-desc">
+              <p>salmon that is hot</p>
+            </div>
+          </div>
+          <div class="food-item">
+            <div class="food-title-price">
+              <h3 class="food-title">Steak Frites</h3>
+              <h3 class="food-price">$22</h3>
+            </div>
+            <div class="food-desc">
+              <p>fries. with steak</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Desserts -->
+      <section class="menu-category desserts">
+        <h2 class="menu-category-subtitle desserts-subtitle">Desserts</h2>
+        <div class="food">
+          <div class="food-item">
+            <div class="food-title-price">
+              <h3 class="food-title">Tiramisu</h3>
+              <h3 class="food-price">$7</h3>
+            </div>
+            <div class="food-desc">
+              <p>some sort of trifle</p>
+            </div>
+          </div>
+          <div class="food-item">
+            <div class="food-title-price">
+              <h3 class="food-title">Gelato</h3>
+              <h3 class="food-price">$5</h3>
+            </div>
+            <div class="food-desc">
+              <p>ice cream but make it italian</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer - Same across all pages-->
+    <footer class="footer">
+      <div class="footer-copyright">
+        <p class="footer-p">Grayson Gales &copy; 2023</p>
+        <p class="footer-p">All Rights Reserved.</p>
+      </div>
+      <div class="footer-terms">
+        <a href="#" class="footer-link">Privacy Policy</a>
+        <a href="#" class="footer-link">Terms of Use</a>
+      </div>
+    </footer>
+  </body>
+</html>
